@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script src="src/index.js" defer></script>
+    <table id="whole">
+      <thead id="thead-id">
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Admin</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="addRows"></tbody>
+    </table>
+    <fieldset id="fieldset-id">
+      <input name="name" type="text" id="input-username" placeholder="name" />
+      <br />
+      <input type="text" id="input-email" placeholder="email" />
+      <br />
+      <input type="text" id="input-address" placeholder="address" />
+      <br />
+      <label for="AdminCheck">Click here if you are an admin</label>
+      <input name="AdminCheck" type="checkbox" id="input-admin" value="X" />
+      <br />
+      <input type="file" id="input-image" />
+      <br />
+      <button name="Submit" id="submit-data">Submit</button>
+      <button name="Clear" id="clear-data">Clear</button>
+    </fieldset>
+    <br />
+  </body>
+</html>
